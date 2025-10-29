@@ -23,9 +23,13 @@ You can add options to executable code like this
 ```
 
 The `echo: false` option disables the printing of code (only output is displayed).
+<<<<<<< HEAD
 
 ```{r}
 library(tidyverse)
 mtcars %>% 
     ggplot(aes(mpg, wt)) +
-    geom_point()
+    geom_point() +
+    theme_minimal()
+=======
+>>>>>>> origin/main
